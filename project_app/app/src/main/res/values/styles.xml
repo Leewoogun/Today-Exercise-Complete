@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 로그인, 회원가입 title style-->
+    <style name="Text.Title" parent="android:TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/nanumbrushscriptregular</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <!-- 앱 전반적으로 사용되는 style 24sp-->
+    <style name="Text.Regular" parent="android:TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/aldrichregular</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Text.Small18" parent="Text.Regular">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Small16" parent="Text.Regular">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Button Text로 쓰이는 Style-->
+    <style name="Text.normal" parent="android:TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/interlight</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+</resources>

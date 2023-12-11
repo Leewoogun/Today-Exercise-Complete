@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <font
+        android:font="@font/aldrichregular"
+        android:fontStyle="normal"
+        android:fontWeight="300"
+        app:font="@font/aldrichregular"
+        app:fontStyle="normal"
+        app:fontWeight="300" />
+
+    <font
+        android:font="@font/interlight"
+        android:fontStyle="normal"
+        android:fontWeight="300"
+        app:font="@font/interlight"
+        app:fontStyle="normal"
+        app:fontWeight="300" />
+
+    <font
+        android:font="@font/nanumbrushscriptregular"
+        android:fontStyle="normal"
+        android:fontWeight="300"
+        app:font="@font/nanumbrushscriptregular"
+        app:fontStyle="normal"
+        app:fontWeight="300" />
+
+</font-family>

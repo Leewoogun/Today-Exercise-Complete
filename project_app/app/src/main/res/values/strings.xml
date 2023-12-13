@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Today_Exercise_complete</string>
     <string name="login_title">오늘 운동 했나요?</string>
-    <string name="input_id">ID를 입력하세요.</string>
-    <string name="input_pw">PW를 입력하세요.</string>
+    <string name="input_id">ID</string>
+    <string name="input_pw">PW</string>
+    <string name="join_input_id">아이디를 입력하세요.</string>
+    <string name="join_input_nickname">닉네임을 입력하세요.</string>
+    <string name="join_input_pw">비밀번호를 입력하세요.</string>
 </resources>

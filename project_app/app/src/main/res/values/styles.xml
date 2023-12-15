@@ -47,4 +47,9 @@
         <item name="android:textSize">16sp</item>
     </style>
 
+    <!-- 바텀 네비게이션 style-->
+    <style name="BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="android:background">@drawable/background_bottom_navigation</item>
+    </style>
+
 </resources>

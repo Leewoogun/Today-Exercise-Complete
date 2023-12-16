@@ -98,7 +98,8 @@
             android:layout_marginTop="15dp"
             app:boxStrokeColor="@drawable/select_input_layout_color"
             app:layout_constraintStart_toStartOf="@id/til_join_id"
-            app:layout_constraintTop_toBottomOf="@id/til_join_nickname">
+            app:layout_constraintTop_toBottomOf="@id/til_join_nickname"
+            app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"

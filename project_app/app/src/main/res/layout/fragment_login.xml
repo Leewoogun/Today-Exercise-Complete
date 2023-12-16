@@ -70,7 +70,8 @@
             app:boxStrokeColor="@drawable/select_input_layout_color"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/til_login_id">
+            app:layout_constraintTop_toBottomOf="@id/til_login_id"
+            app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"

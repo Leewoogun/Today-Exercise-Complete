@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_certification_date"
+        style="@style/Text.Regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="2023-12-17" />
+
+    <TextView
+        android:id="@+id/tv_certification_user"
+        style="@style/Text.Regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/tv_certification_date"
+        app:layout_constraintTop_toBottomOf="@id/tv_certification_date"
+        tools:text="OOO님에게 인증하기" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_certification_camera"
+        android:layout_width="237dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_edittext_no_radius"
+        android:text="@string/click_camara"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_certification_user" />
+
+    <ImageView
+        android:id="@+id/iv_certification_img"
+        android:layout_width="237dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_certification_user" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
